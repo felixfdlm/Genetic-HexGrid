@@ -245,7 +245,7 @@ Now that the process is over, let's rehearse how the score evolved along the 100
 pygad_GA.plot_fitness()
 ```
 
-<img src='Cell-1.jpg'>
+<img src='evolution.png'>
 
 As we can see, the best solutions quickly reached a score of around 320, and barely improved from that point onwards. This is pretty common for this problem, although for larger grids local maxima are usual, so optimal solutions are not guaranteed.
 
@@ -255,5 +255,7 @@ Finally, let's plot the solution:
 colorvector = pygad_GA.best_solution()[0]
 dibujaMat(mat,colorvector,colores=['red','blue','green'])
 ```
+
+<img src='colored.png'>
 
 As we can see, each colour is grouped on a given region, although some isolated red cells can be seen. Clearly, this is not the best possible solution to the problem, but it is fairly good, and has been found automatically.
