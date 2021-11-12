@@ -1,7 +1,6 @@
 ---
 jupyter:
   jupytext:
-    formats: ipynb,md
     text_representation:
       extension: .md
       format_name: markdown
@@ -172,6 +171,8 @@ mat = creatematrix(xmax,ymax)
 dibujaMat(mat)
 ```
 
+<img src='Non-Colored.png'>
+
 We can see the grid has some chunks of fully connected hex tiles which are separated by small chunks of void. Deciding the colors by hand may be tough, but luckyly we are not doing that.
 
 Once the hex grid has been created, we must build its adjacency matrix:
@@ -257,6 +258,8 @@ Now that the process is over, let's rehearse how the score evolved along the 100
 ```python
 pygad_GA.plot_fitness()
 ```
+
+<img src='Cell-1.jpg'>
 
 As we can see, the best solutions quickly reached a score of around 320, and barely improved from that point onwards. This is pretty common for this problem, although for larger grids local maxima are usual, so optimal solutions are not guaranteed.
 
