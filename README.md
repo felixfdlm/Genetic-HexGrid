@@ -1,17 +1,3 @@
----
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.13.1
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
----
-
 # Genetic Algorithms with Python
 
 Genetic algorithms are metaheuristics inspired in the process of natural selection. They are useful in problems regarding the search of non-optimal but sufficiently good solutions to problems involving large search spaces.
